@@ -3,6 +3,10 @@
     corednsSelector: 'job="kube-dns"',
     instanceLabel: 'pod',
 
+     // Opt-in to multiCluster dashboards by overriding this and the clusterLabel.
+    showMultiCluster: true,
+    clusterLabel: 'cluster',
+
     grafanaDashboardIDs: {
       'coredns.json': 'thael1rie7ohG6OY3eMeisahtee2iGoo1gooGhuu',
     },
